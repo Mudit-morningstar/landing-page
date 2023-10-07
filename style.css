@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: Roboto, helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    background: #1F2937;
+    padding: 16px 60px;
+    justify-content: space-between;
+}
+
+.header span {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links a {
+    font-size: 18px;
+    color:#e5e7eb;
+    text-decoration: none;
+}
