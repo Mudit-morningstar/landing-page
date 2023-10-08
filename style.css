@@ -28,3 +28,42 @@ body {
     color:#e5e7eb;
     text-decoration: none;
 }
+
+.panel-1 {
+    display: flex;
+    padding: 60px;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.panel-1 .panel-1-text span {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.panel-1 .panel-1-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.panel-1 .panel-1-text button {
+    color: #e5e7eb;
+    padding: 5px 25px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: transparent;
+}
+
+.panel-1-image {
+    width: 450px;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.panel-1-text {
+    margin-right: 40px;
+}
