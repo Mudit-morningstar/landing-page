@@ -8,7 +8,7 @@ body {
 .header {
     display: flex;
     background: #1F2937;
-    padding: 16px 60px;
+    padding: 16px 120px;
     justify-content: space-between;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .panel-1 {
     display: flex;
-    padding: 60px;
+    padding: 120px;
     background-color: #1f2937;
     justify-content: space-between;
 }
@@ -57,13 +57,47 @@ body {
 }
 
 .panel-1-image {
-    width: 450px;
+    width: 800px;
     height: auto;
     background-color: grey;
     display: flex;
-    flex-shrink: 0;
 }
 
 .panel-1-text {
     margin-right: 40px;
+    max-width: 500px;
+}
+
+.panel-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 120px 60px 120px;
+}
+
+.panel-2 .panel-header {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 120px;
+}
+
+.card .image {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+
+.card p {
+    text-align: center;
 }
