@@ -9,3 +9,4 @@ The aim is to get comfortable with css and more specifically flexbox and how to 
 Future Plans:
 1. Is to add real picture and info.
 2. Make a meaningful webpage out of it instead of just a template.
+3. Can be the base of my portfolio website.
